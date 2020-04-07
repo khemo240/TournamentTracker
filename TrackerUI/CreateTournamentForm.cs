@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TrackerUI
+namespace WindowsFormsApp1
 {
-    public partial class TournamentViewer : Form
+    public partial class CreateTournamentForm : Form
     {
-        public TournamentViewer()
+        public CreateTournamentForm()
         {
             InitializeComponent();
-        }
-
-        private void TournamentViewer_Load(object sender, EventArgs e)
-        {
-
         }
 
     }
